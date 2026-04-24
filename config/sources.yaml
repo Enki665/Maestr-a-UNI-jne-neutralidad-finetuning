@@ -16,7 +16,7 @@ sources:
     output_file: "guia_neutralidad_electoral_pcm.pdf"
 
   - id: DOC003
-    title: "Reglamento sobre propaganda electoral, publicidad estatal y neutralidad"
+    title: "Reglamento sobre propaganda electoral, publicidad estatal y neutralidad en periodo electoral"
     institution: "Jurado Nacional de Elecciones"
     type: "reglamento"
     topic: "neutralidad electoral"
@@ -26,7 +26,7 @@ sources:
   - id: DOC004
     title: "Resoluciones públicas del Jurado Nacional de Elecciones"
     institution: "Jurado Nacional de Elecciones"
-    type: "resolucion"
-    topic: "precedentes neutralidad electoral"
+    type: "resoluciones"
+    topic: "precedentes sobre neutralidad electoral"
     url: "COLOCAR_URL_OFICIAL"
     output_file: "resoluciones_jne_index.html"
