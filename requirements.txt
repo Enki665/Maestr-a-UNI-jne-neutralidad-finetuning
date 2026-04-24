@@ -1,0 +1,15 @@
+requests
+beautifulsoup4
+pandas
+numpy
+pypdf
+python-dotenv
+tqdm
+scikit-learn
+sentence-transformers
+faiss-cpu
+transformers
+datasets
+accelerate
+peft
+trl

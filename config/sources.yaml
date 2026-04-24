@@ -1,0 +1,32 @@
+sources:
+  - id: DOC001
+    title: "Decreto Supremo N.° 054-2025-PCM"
+    institution: "Presidencia del Consejo de Ministros"
+    type: "norma"
+    topic: "neutralidad electoral"
+    url: "COLOCAR_URL_OFICIAL"
+    output_file: "ds_054_2025_pcm.pdf"
+
+  - id: DOC002
+    title: "Guía de Neutralidad Electoral"
+    institution: "Presidencia del Consejo de Ministros"
+    type: "guia"
+    topic: "neutralidad electoral"
+    url: "COLOCAR_URL_OFICIAL"
+    output_file: "guia_neutralidad_electoral_pcm.pdf"
+
+  - id: DOC003
+    title: "Reglamento sobre propaganda electoral, publicidad estatal y neutralidad"
+    institution: "Jurado Nacional de Elecciones"
+    type: "reglamento"
+    topic: "neutralidad electoral"
+    url: "COLOCAR_URL_OFICIAL"
+    output_file: "reglamento_jne_neutralidad.pdf"
+
+  - id: DOC004
+    title: "Resoluciones públicas del Jurado Nacional de Elecciones"
+    institution: "Jurado Nacional de Elecciones"
+    type: "resolucion"
+    topic: "precedentes neutralidad electoral"
+    url: "COLOCAR_URL_OFICIAL"
+    output_file: "resoluciones_jne_index.html"
