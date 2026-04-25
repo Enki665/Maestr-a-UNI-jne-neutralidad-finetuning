@@ -1,16 +1,21 @@
-"""
-EDA - Reporte SIJE ELECCIA
-Corte: 2026-04-23
-"""
-
+from pathlib import Path
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 import warnings
+
 warnings.filterwarnings("ignore")
 
-FILE = "reporte_sije_eleccia_20260423_1625.xlsx"
+BASE_DIR = Path(__file__).resolve().parents[1]
+
+FILE = BASE_DIR / "data" / "training" / "reporte_sije_eleccia_20260423_1625.xlsx"
+OUTPUT_DIR = BASE_DIR / "outputs" / "reports"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 HEADER_ROW = 2
+
+if not FILE.exists():
+    raise FileNotFoundError(f"No se encontró el archivo: {FILE}")
 
 # ── Carga ─────────────────────────────────────────────────────────────────────
 df = pd.read_excel(FILE, header=HEADER_ROW)
