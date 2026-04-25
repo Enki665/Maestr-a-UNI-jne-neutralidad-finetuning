@@ -1,7 +1,8 @@
 # Maestría-UNI-jne-neutralidad-finetuning
 
 # Fine-tuning de modelo de lenguaje para neutralidad electoral
-
+## Autor
+- Quispe Huaman Edgar Aldair
 ## Descripción
 
 Este repositorio contiene la estructura inicial del proyecto de tesis orientado al ajuste fino de un modelo de lenguaje natural para apoyar la evaluación automatizada y asistida de proyectos de resolución en materia de neutralidad electoral en el Perú.
